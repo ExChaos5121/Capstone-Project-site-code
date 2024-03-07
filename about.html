@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About</title>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+	<header>
+		<h1>About</h1>
+		<nav>
+			<ul>
+				<li><a href="project">Home</a></li>
+				<li><a href="about">About</a></li>
+				<li><a href="maps">Maps</a></li>
+			</ul>
+		</nav>
+    <form action="#" method="get">
+			<label for="search">Search:</label>
+			<input type="text" id="search" name="search">
+			<button type="submit">Go</button>
+		</form>
+	</header>
+
+	<main>
+		<section>
+			<h2>About Us</h2>
+			<p>The Low Clearance Bridge project is a personal project. It is itended to be used for learning purpose</p>
+			<p>If you do not seee a marker on our map for a bridge that is low clearance please submit your bridges information below.</p><br>
+			
+			<form action="filehandler.php" method="POST">
+              <div>
+                <label for="lat">Lattitude: </label>
+                <input name="lat" id="lat"  />
+              </div>
+              <div>
+                <label for="long">Longitude: </label>
+                <input name="long" id="long" />
+              </div>
+              <div>
+                <label for="name">Name of Bridge: </label>
+                <input name="name" id="name"  />
+              </div>
+              <div>
+                <label for="desc">Description of Bridge: </label>
+                <input name="desc" id="desc" />
+              </div>
+              <div>
+                <label for="height">Bridge clearance height (EX: 10" 10'): </label>
+                <input name="height" id="height" />
+              </div>
+              <div>
+                <label for="contrib">Name of contributor: </label>
+                <input name="contrib" id="contrib" />
+              </div>
+               <div>
+                <label for="date">Today's date: </label>
+                <input name="date" id="date" />
+              </div>
+              <div>
+                <button>Submit my bridge</button>
+              </div>
+            </form>
+            
+		</section>
+	</main>
+
+</body>
+</html>
