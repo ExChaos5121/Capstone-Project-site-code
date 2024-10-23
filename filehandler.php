@@ -21,9 +21,9 @@
 		<h1 class="animated-title">Bridge Clearance</h1>
 		<nav>
 			<ul>
-			<li><a href="/Capstone-Project-site-code/project.html">Home</a></li>
-				<li><a href="/Capstone-Project-site-code/index.html">About</a></li>
-				<li><a href="/Capstone-Project-site-code/maps.php">Maps</a></li>
+			<li><a href="/project.html">Home</a></li>
+				<li><a href="/index.html">About</a></li>
+				<li><a href="/maps.php">Maps</a></li>
 			</ul>
 		</nav>
 		<form action="#" method="get">
