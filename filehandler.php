@@ -22,7 +22,7 @@
 		<nav>
 			<ul>
 				<li><a href="project">Home</a></li>
-				<li><a href="about">About</a></li>
+				<li><a href="/index.html">About</a></li>
 				<li><a href="maps">Maps</a></li>
 			</ul>
 		</nav>
